@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">Learn Languages</string>
+
+    <!-- Splash -->
+    <string name="splash_text">🌍 Learn Languages</string>
+
+    <!-- Login -->
+    <string name="welcome_title">Welcome To The World Of Languages....</string>
+    <string name="login_title">Learning has never been so easy.......! with world of languages.</string>
+    <string name="hint_email">Enter Email</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="btn_login">Login</string>
+    <string name="or_text">or</string>
+    <string name="btn_gmail">Continue with Gmail</string>
+
+
+    <!-- Language Selection -->
+    <string name="choose_language">Choose a Language</string>
+    <string name="lang_english">English</string>
+    <string name="lang_spanish">Spanish</string>
+    <string name="lang_french">French</string>
+    <string name="lang_german">German</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_image_desc">Dashboard icon</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="btn_basic_words">Basic Words</string>
+    <string name="btn_phrases">Phrases</string>
+    <string name="btn_numbers">Numbers</string>
+    <string name="btn_quiz">Take a Quiz</string>
+    <string name="btn_progress">Progress</string>
+    <string name="btn_backd">Back</string>
+
+    <!-- Lesson -->
+    <string name="dashboard_title2">Basic Words</string>
+    <string name="sample_word">Hola</string>
+    <string name="sample_meaning">Hello</string>
+    <string name="btn_listen">🔊 Listen</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_back">Back</string>
+
+    <string name="sample_word1">Gracias</string>
+    <string name="sample_meaning1">Thank You</string>
+    <string name="btn_listen1">🔊 Listen</string>
+    <string name="btn_next1">Next</string>
+    <string name="btn_back1">Back</string>
+
+    <string name="sample_word2">Cuatro</string>
+    <string name="sample_meaning2">Four</string>
+    <string name="btn_listen2">🔊 Listen</string>
+    <string name="btn_next2">Next</string>
+    <string name="btn_backs">Back</string>
+
+    <string name="sample_word3">Comment ça va ?</string>
+    <string name="sample_meaning3">How are you?</string>
+    <string name="btn_listen3">🔊 Listen</string>
+    <string name="btn_next3">Next</string>
+    <string name="btn_backss">Back</string>
+
+    <string name="sample_word4">Entschuldigung</string>
+    <string name="sample_meaning4">Excuse me</string>
+    <string name="btn_listen4">🔊 Listen</string>
+    <string name="btn_next4">Next</string>
+    <string name="btn_back4">Back</string>
+
+    <!-- phrases -->
+    <string name="dashboard_titlep">Phrases</string>
+    <string name="sample_word56">Buenos dias</string>
+    <string name="sample_meaning56">Good night</string>
+    <string name="btn_listen56">🔊 Listen</string>
+    <string name="btn_next56">Next</string>
+    <string name="btn_back56">Back</string>
+
+    <string name="sample_word66">Bonjour</string>
+    <string name="sample_meaning66">Good morning</string>
+    <string name="btn_listen66">🔊 Listen</string>
+    <string name="btn_next66">Next</string>
+    <string name="btn_back66">Back</string>
+
+    <string name="sample_word77">Wie gehts</string>
+    <string name="sample_meaning77">How are you?</string>
+    <string name="btn_listen77">🔊 Listen</string>
+    <string name="btn_next77">Next</string>
+    <string name="btn_back77">Back</string>
+
+    <string name="sample_word88">Perdon</string>
+    <string name="sample_meaning88">Excuse me</string>
+    <string name="btn_listen88">🔊 Listen</string>
+    <string name="btn_next88">Next</string>
+    <string name="btn_backs88">Back</string>
+
+    <string name="sample_word99">Merci</string>
+    <string name="sample_meaning99">Thank you</string>
+    <string name="btn_listen99">🔊 Listen</string>
+    <string name="btn_next99">Next</string>
+    <string name="btn_back99">Back</string>
+
+
+    <!-- numbers -->
+    <string name="dashboard_titlen">Numbers</string>
+    <string name="sample_word5">Uno</string>
+    <string name="sample_meaning5">One</string>
+    <string name="btn_listen5">🔊 Listen</string>
+    <string name="btn_next5">Next</string>
+    <string name="btn_back5">Back</string>
+
+    <string name="sample_word6">DOS</string>
+    <string name="sample_meaning6">Two</string>
+    <string name="btn_listen6">🔊 Listen</string>
+    <string name="btn_next6">Next</string>
+    <string name="btn_back6">Back</string>
+
+    <string name="sample_word7">Tres</string>
+    <string name="sample_meaning7">Three</string>
+    <string name="btn_listen7">🔊 Listen</string>
+    <string name="btn_next7">Next</string>
+    <string name="btn_back7">Back</string>
+
+    <string name="sample_word8">Cuatro</string>
+    <string name="sample_meaning8">Four</string>
+    <string name="btn_listen8">🔊 Listen</string>
+    <string name="btn_next8">Next</string>
+    <string name="btn_backs8">Back</string>
+
+    <string name="sample_word9">Cinco</string>
+    <string name="sample_meaning9">Five</string>
+    <string name="btn_listen9">🔊 Listen</string>
+    <string name="btn_next9">Next</string>
+    <string name="btn_back9">Back</string>
+
+
+    <!-- Quiz -->
+    <string name="quiz_question">What is hello in Spanish?</string>
+    <string name="quiz_option1">Hola</string>
+    <string name="quiz_option2">Merci</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_back2">Back</string>
+
+    <string name="quiz_questionen">What is your name?</string>
+    <string name="quiz_option1en">¿Cómo te llamas?</string>
+    <string name="quiz_option2en">Comment tu t appelles ?</string>
+    <string name="btn_submiten">Submit</string>
+    <string name="btn_back3">Back</string>
+
+    <string name="quiz_questiong">How old are you?</string>
+    <string name="quiz_option1g">Wie heißt du</string>
+    <string name="quiz_option2g">Excusez-moi</string>
+    <string name="btn_submitg">Submit</string>
+    <string name="btn_back2g">Back</string>
+
+    <string name="quiz_questionu">What is your school?</string>
+    <string name="quiz_option1u">Hola</string>
+    <string name="quiz_option2u">Merci</string>
+    <string name="btn_submitu">Submit</string>
+    <string name="btn_back2u">Back</string>
+
+    <string name="quiz_questionut">What is your Country?</string>
+    <string name="quiz_option1ut">¿Cómo te llamas?</string>
+    <string name="quiz_option2ut">Merci</string>
+    <string name="btn_submitut">Submit</string>
+    <string name="btn_back2ut">Cancel</string>
+
+
+    <!-- Progress -->
+    <string name="progress_title">Progress !S</string>
+    <string name="progress_title2">Learning has never been so easy with world of languages. You will learn to speak your dream language in no time.</string>
+    <string name="progress_title4">Name:Dewmini Jayasinghe</string>
+    <string name="progress_title5">Age:23 years old</string>
+    <string name="progress_title6">Country:Sri Lanka</string>
+    <string name="progress_title7">Gmail:dew123@gmail.com</string>
+    <string name="progress_text">You completed 7/10 lessons</string>
+    <string name="btn_back_dashboard">Back to Dashboard</string>
+</resources>

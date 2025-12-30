@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBDEFB">
+
+    <TextView
+        android:text="@string/quiz_question"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupQuiz"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <RadioButton
+            android:id="@+id/option1"
+            android:text="@string/quiz_option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/option2"
+            android:text="@string/quiz_option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:text="What is your name?"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupQuiz1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <RadioButton
+            android:id="@+id/option1en"
+            android:text="¿Cómo te llamas?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/option2en"
+            android:text="Comment tu t'appelles ?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <TextView
+        android:text="How old are you?"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioButton
+        android:id="@+id/option3en"
+        android:text="Wie heißt du"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioButton
+        android:id="@+id/option4en"
+        android:text="Excusez-moi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="What is your school?"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioButton
+        android:id="@+id/option1u"
+        android:text="@string/quiz_option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioButton
+        android:id="@+id/option2u"
+        android:text="@string/quiz_option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="What is your country?"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioButton
+        android:id="@+id/option1ut"
+        android:text="¿Cómo te llamas?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioButton
+        android:id="@+id/option2ut"
+        android:text="@string/quiz_option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:text="@string/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnBackLesson"
+        android:text="Cancel"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp" />
+
+
+</LinearLayout>
+

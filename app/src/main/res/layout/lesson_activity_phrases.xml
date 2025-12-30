@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lesson_background">
+
+    <TextView
+        android:text="Phrases"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:layout_marginBottom="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Buenas dias"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#1A237E" />  <!-- Dark Indigo -->
+
+    <TextView
+        android:id="@+id/tvMeaning"
+        android:text="Good night"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#3949AB" />  <!-- Indigo -->
+
+    <TextView
+        android:id="@+id/tvWord1"
+        android:text="Bonjour"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1A237E" />
+
+    <TextView
+        android:id="@+id/tvMeaning1"
+        android:text="Good morning"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#3949AB" />
+
+    <TextView
+        android:id="@+id/tvWord2"
+        android:text="Wie gehts"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1A237E" />
+
+    <TextView
+        android:id="@+id/tvMeaning2"
+        android:text="How are you?"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#3949AB" />
+
+    <TextView
+        android:id="@+id/tvWord3"
+        android:text="Perdon"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1A237E" />
+
+    <TextView
+        android:id="@+id/tvMeaning3"
+        android:text="Excuse me"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#3949AB" />
+
+    <TextView
+        android:id="@+id/tvWord4"
+        android:text="Merci"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1A237E" />
+
+    <TextView
+        android:id="@+id/tvMeaning4"
+        android:text="Thank you"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#3949AB" />
+
+    <Button
+        android:id="@+id/btnListen"
+        android:text="@string/btn_listen"
+        android:backgroundTint="#3949AB"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="14dp"
+        android:background="@drawable/rounded_button" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:text="@string/btn_next"
+        android:backgroundTint="#1A237E"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:background="@drawable/rounded_button" />
+
+    <Button
+        android:id="@+id/btnBackLesson"
+        android:text="Back"
+        android:backgroundTint="#BBDEFB"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:padding="10dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <color name="dashboard_tint_color">#3F51B5</color>
+
+    <!-- Primary colors -->
+    <color name="primaryColor">#1976D2</color>         <!-- Blue -->
+    <color name="primaryDarkColor">#004BA0</color>     <!-- Dark Blue -->
+    <color name="accentColor">#FFC107</color>          <!-- Amber/Yellow -->
+
+    <!-- Background -->
+    <color name="backgroundColor">#E3F2FD</color>      <!-- Light Blue -->
+
+    <!-- Text colors -->
+    <color name="textPrimary">#212121</color>         <!-- Dark gray -->
+    <color name="textSecondary">#757575</color>       <!-- Medium gray -->
+    <color name="white">#FFFFFF</color>
+
+    <!-- Buttons -->
+    <color name="btnLoginColor">#1976D2</color>
+    <color name="btnGmailColor">#DB4437</color>       <!-- Gmail Red -->
+
+    <!-- Optional: success/error -->
+    <color name="successColor">#4CAF50</color>
+    <color name="errorColor">#F44336</color>
+</resources>
